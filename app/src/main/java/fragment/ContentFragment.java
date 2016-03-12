@@ -18,7 +18,7 @@ import yalantis.com.sidemenu.interfaces.ScreenShotable;
  * Created by frank on 3/11/16.
  */
 public class ContentFragment {
-    public class ContentFragment extends Fragment implements ScreenShotable {
+    public static class ContentFragment extends Fragment implements ScreenShotable {
         public static final String CLOSE = "Close";
         public static final String BUILDING = "Building";
         public static final String BOOK = "Book";
